@@ -1,18 +1,18 @@
 {
     "schema_version": "1",
     "open_source": true,
-    "model_name": "poker44_ml13tens10",
-    "model_version": "13.10",
+    "model_name": "poker44_ml13tens9",
+    "model_version": "13.9",
     "framework": "pytorch-torchscript",
     "license": "MIT",
-    "repo_url": "https://github.com/tomkaba/poker44-miner-ml13tens10",
-    "repo_commit": "f4432b46409b8238321947f790d746a1df717931",
+    "repo_url": "https://github.com/tomkaba/poker44-miner-ml13tens9",
+    "repo_commit": "86902593544c2ecd60685a8aa0962f6fabc8212c",
     "inference_mode": "local",
     "training_data_statement": "Trained with benchmark groundtruth",
     "data_attestation": "This miner does not train on validator-private human data.",
     "private_data_attestation": "This miner does not train on validator-private human data.",
     "implementation_files": [
-        "weights/gen13_tens10_conservative_hardened.ts",
+        "weights/gen13_tens9_160_hardened.ts",
         "neurons/miner.py",
         "poker44/__init__.py",
         "poker44/base/miner.py",
@@ -23,6 +23,6 @@
         "poker44/utils/model_manifest.py",
         "poker44/validator/synapse.py"
     ],
-    "implementation_sha256": "01b90bc1ee5b0d0cdb02b4b04333609593e9422527e000708bdfca6286768238",
-    "notes": "Gen13Tens10 conservative neural scorer."
+    "implementation_sha256": "3ae100a69f57f51b162f7e66486041369913d6ede4930c5df9d8574ff1c6343c",
+    "notes": "Gen13Tens9 neural network scorer (POT=160)."
 }

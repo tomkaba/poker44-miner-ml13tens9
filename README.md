@@ -1,4 +1,4 @@
-# Poker44-ml13tens10
+# Poker44-ml13tens9
 
 Minimal release repository for Poker44 miner runtime scoring.
 
@@ -7,8 +7,8 @@ This repository is a standalone miner variant prepared for production rollout.
 ## Quick start
 
 ```bash
-git clone https://github.com/tomkaba/poker44-miner-ml13tens10.git
-cd poker44-miner-ml13tens10
+git clone https://github.com/tomkaba/poker44-miner-ml13tens9.git
+cd poker44-miner-ml13tens9
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ or legacy wrapper:
 
 - Scorer entrypoint: poker44/miner_heuristics.py
 - Entry point: neurons/miner.py
-- Runtime model: weights/gen13_tens10_conservative_hardened.ts
+- Runtime model: weights/gen13_tens9_160_hardened.ts
 
 Manifest implementation SHA256 is computed from:
 
