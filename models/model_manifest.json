@@ -6,7 +6,7 @@
     "framework": "pytorch-torchscript",
     "license": "MIT",
     "repo_url": "https://github.com/tomkaba/poker44-miner-ml13tens9",
-    "repo_commit": "86902593544c2ecd60685a8aa0962f6fabc8212c",
+    "repo_commit": "5157c76885ef0fa5ce12ee2142c274c154062627",
     "inference_mode": "local",
     "training_data_statement": "Trained with benchmark groundtruth",
     "data_attestation": "This miner does not train on validator-private human data.",
@@ -23,6 +23,6 @@
         "poker44/utils/model_manifest.py",
         "poker44/validator/synapse.py"
     ],
-    "implementation_sha256": "3ae100a69f57f51b162f7e66486041369913d6ede4930c5df9d8574ff1c6343c",
+    "implementation_sha256": "f7c158101ed6b250ab341342fe8c50217ed1afc6ee334c848f3ae252cbc60fe4",
     "notes": "Gen13Tens9 neural network scorer (POT=160)."
 }
